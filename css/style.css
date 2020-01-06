@@ -36,7 +36,7 @@
   }
   
   .vertical-divider:after {
-    top: auto;
+    height: 80%;
     bottom: 0;
   }
 

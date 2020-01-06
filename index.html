@@ -26,17 +26,19 @@
                     </div>
                     <div class="card-body">
                       <div class="float-left col-sm-6">
-                        <div class="float-right">
+                        <!-- <div class="float-right">
                             Kwh
                         </div>
-                          <h1>39</h1>
+                          <h1>39</h1> -->
+                          <p><span style="font-size: 2.5rem; font-weight: 500; color: #CF0404;">39 </span><sup style="font-size: 1.6rem;">Kwh</sup></p>
                       </div>
-                      <div class="vertical-divider"></div>
+                      <!-- <div class="vertical-divider"></div> -->
                       <div class="float-right col-sm-6">
-                        <div class="float-left">
+                        <!-- <div class="float-left">
                             Rs
                         </div>
-                          <h1>25,666</h1>
+                          <h1>25,666</h1> -->
+                          <p><sup style="font-size: 1.6rem;">Rs </sup><span style="font-size: 2.5rem; font-weight: 500; color: #CF0404;">25,666 </span></p>
                       </div>
                     <div class="clearfix"></div>
                     </div>
@@ -45,16 +47,18 @@
                     </div>
                     <div class="card-body padding-control-bottom-card">
                         <div class="float-left col-sm-6">
-                          <div class="float-right">
+                          <!-- <div class="float-right">
                               Kwh
                           </div>
-                            <h3>35</h3>
+                            <h3>35</h3> -->
+                            <p style="margin-bottom: 0px;"><span style="font-size: 1.75rem; font-weight: 500; color: #CF0404;">39 </span><sup style="font-size: 1rem;">Kwh</sup></p>
                         </div>
                         <div class="float-right col-sm-6">
-                          <div class="float-left">
+                          <!-- <div class="float-left">
                               Rs
                           </div>
-                            <h3>800</h3>
+                            <h3>800</h3> -->
+                            <p style="margin-bottom: 0px;"><sup style="font-size: 1rem;">Rs </sup><span style="font-size: 1.75rem; font-weight: 500; color: #CF0404;">800</span></p>
                         </div>
                       <div class="clearfix"></div>
                       </div>
@@ -67,16 +71,19 @@
                     </div>
                     <div class="card-body">
                       <div class="float-left col-sm-6">
-                        <div class="float-right">
+                        <!-- <div class="float-right">
                             Kwh
                         </div>
-                          <h1>119</h1>
+                          <h1>39</h1> -->
+                          <p><span style="font-size: 2.5rem; font-weight: 500; color: #CF0404;">238 </span><sup style="font-size: 1.6rem;">Kwh</sup></p>
                       </div>
+                      <!-- <div class="vertical-divider"></div> -->
                       <div class="float-right col-sm-6">
-                        <div class="float-left">
+                        <!-- <div class="float-left">
                             Rs
                         </div>
-                          <h1>11,050</h1>
+                          <h1>25,666</h1> -->
+                          <p><sup style="font-size: 1.6rem;">Rs </sup><span style="font-size: 2.5rem; font-weight: 500; color: #CF0404;">6,484 </span></p>
                       </div>
                     <div class="clearfix"></div>
                     </div>
@@ -84,23 +91,58 @@
                       Daily Average
                     </div>
                     <div class="card-body padding-control-bottom-card">
-                        <div class="float-left col-sm-6">
-                          <div class="float-right">
-                              Kwh
-                          </div>
-                            <h3>450</h3>
+                      <div class="float-left col-sm-6">
+                        <!-- <div class="float-right">
+                            Kwh
                         </div>
-                        <div class="float-right col-sm-6">
-                          <div class="float-left">
-                              Rs
-                          </div>
-                            <h3>3000</h3>
-                        </div>
-                      <div class="clearfix"></div>
+                          <h3>35</h3> -->
+                          <p style="margin-bottom: 0px;"><span style="font-size: 1.75rem; font-weight: 500; color: #CF0404;">1841 </span><sup style="font-size: 1rem;">Kwh</sup></p>
                       </div>
+                      <div class="float-right col-sm-6">
+                        <!-- <div class="float-left">
+                            Rs
+                        </div>
+                          <h3>800</h3> -->
+                          <p style="margin-bottom: 0px;"><sup style="font-size: 1rem;">Rs </sup><span style="font-size: 1.75rem; font-weight: 500; color: #CF0404;">50,220</span></p>
+                      </div>
+                    <div class="clearfix"></div>
+                    </div>
                   </div>
             </div>
         </div>
     </div>
+
+    <div class="container" style="margin-top: 25px;">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+              <h5 class="card-header" style="text-align: center;">HOURLY COST, SATURDAY 7 DEC</h5>
+              <div class="card-body">
+                  <canvas id="myChartOne"></canvas>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="margin-top: 25px; margin-bottom: 25px;">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+              <h5 class="card-header" style="text-align: center;">COST (RS) TREND FOR LAST SEVEN DAYS</h5>
+              <div class="card-body">
+                  <canvas id="myChartTwo"></canvas>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================== Js Files =================== -->
+    <script src="js/Chart.bundle.js"></script>
+    <script src="js/chartjs.js"></script>
+
+  <!-- ===================================================== -->
+    
 </body>
 </html>
